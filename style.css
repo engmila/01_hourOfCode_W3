@@ -1,4 +1,9 @@
-.zone {
+body {
+    width: 100%;
+    margin: 0;
+}
+
+/*.zone {
     padding:30px 50px;
     margin:40px 60px;
     cursor:pointer;
@@ -15,7 +20,7 @@
     -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
     -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
     box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
-}
+}*/
 
 /*https://paulund.co.uk/how-to-create-shiny-css-buttons*/
 /***********************************************************************
@@ -28,7 +33,25 @@ nav{
     background: -webkit-linear-gradient(top, #56B870 0%,#a5c956 100%); /* Chrome10+,Safari5.1+ */
     background: -o-linear-gradient(top, #56B870 0%,#a5c956 100%); /* Opera 11.10+ */
     background: -ms-linear-gradient(top, #56B870 0%,#a5c956 100%); /* IE10+ */
-    background: linear-gradient(top, #56B870 0%,#a5c956 100%); /* W3C */
+    background: linear-gradient(top, #56B870 0%,#a5c956 100%); /* W3C */  
+    border-radius: 0.20em;
+    height: 10vh;
+}
+
+nav li{
+    list-style-type: none;
+    display: inline-block;
+    padding-left: 1.25em;
+    font-size: 16pt;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+}
+
+.contactnav {
+    align-self: flex-end;
 }
 
 /***********************************************************************
@@ -42,6 +65,7 @@ header{
     background: -o-linear-gradient(top, #C655BE 0%,#cf0404 100%); /* Opera 11.10+ */
     background: -ms-linear-gradient(top, #C655BE 0%,#cf0404 100%); /* IE10+ */
     background: linear-gradient(top, #C655BE 0%,#cf0404 100%); /* W3C */
+    height: 30vh;
 }
 
 /***********************************************************************
@@ -55,6 +79,7 @@ main{
     background: -o-linear-gradient(top, #F3AAAA 0%,#febf04 100%); /* Opera 11.10+ */
     background: -ms-linear-gradient(top, #F3AAAA 0%,#febf04 100%); /* IE10+ */
     background: linear-gradient(top, #F3AAAA 0%,#febf04 100%); /* W3C */
+    height: auto;
 }
 
 /***********************************************************************
@@ -68,4 +93,5 @@ footer{
     background: -o-linear-gradient(top, #7abcff 0%,#60abf8 44%,#4096ee 100%); /* Opera 11.10+ */
     background: -ms-linear-gradient(top, #7abcff 0%,#60abf8 44%,#4096ee 100%); /* IE10+ */
     background: linear-gradient(top, #7abcff 0%,#60abf8 44%,#4096ee 100%); /* W3C */
+    height: 5vh;
 }
